@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../styles/style.css" />
+    <title>Invite New User</title>
+</head>
+<body>
+    <header>
+        <div class="header_whiteblock"></div>
+        <a href="../add.cpo/index.html"
+          ><div>
+            <img src="../svg/header_home.svg" alt="home" /></div
+        ></a>
+        <a href="../login_page/index.html"
+          ><div class="header_users">
+            <div><img src="../svg/1.svg" alt="g" /></div>
+            Login
+          </div></a
+        >
+        <a href="#"
+          ><div>
+            <img src="../svg/bell.svg" alt="bell" /></div
+        ></a>
+  
+        <a href="../login_page/index.html"
+          ><div><img src="../svg/exit.svg" alt="exit" /></div
+        ></a>
+      </header>
+      <main>
+        <div class="container users">
+          <div class="sidenav">
+            <ul>
+              <li class="activef one"><a href="../inviteusers/index.html">Dashboard</a></li>
+              <li class=" two"><a href="../changestation/index.html">Charging Sessions</a></li>
+              <li class="three"><a href="">Billing and Payment</a></li>
+              <li class="four"><a href="../users/index.html">User Management</a></li>
+              <li class=" five">
+                <a href="../add.cpo/index.html">CPO Registration</a>
+              </li>
+              <li class="six"><a href="">Reports and Analytics</a></li>
+            </ul>
+          </div>
+          <div class="main_invite">
+                <div class="top_btn">
+                <button class="btnone delete">Cancel</button>
+                <button class="btntwo save">Send Invite</button>
+                <button class="brnthree top_button_two"> <img src="..//svg/telegram.svg" alt="telegram"></button>
+                </div>
+              <div class="invite_form"> 
+                <p>General Information</p>
+                <form autocomplete="on">
+                   <div class="user_info">
+                    <div>
+                        <label for="user">user name</label>
+                        <input type="text" id="user">
+                    </div>
+                    <div>
+                        <label for="firstname">first name</label>
+                        <input type="text" id="firstname">
+                    </div>
+                    <div>
+                        <label for="lastname">last name</label>
+                        <input type="text" id="lastname">
+                    </div>
+                    <div>
+                        <label for="tel">modile</label>
+                        <input type="tel" id="tel">
+                    </div>
+                    <div>
+                        <label for="email">email</label>
+                        <input type="email" id="email">
+                    </div>
+                   </div>
+                   <div class="radio_form">
+                   <p><input type="radio" name="rermis" value="All Permissions"><span>All Permissions</span> </p>  
+                   <p><input type="radio" name="rermis" value="Basic Permissions" checked><span>Basic Permissions</span> </p> 
+                   </div>
+                </form>
+                 </div>
+            </div>
+        </div>
+</body>
+</html>

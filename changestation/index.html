@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Charging Station 2</title>
+</head>
+<body>
+    <header>
+        <div class="header_whiteblock"></div>
+        <a href="../add.cpo/index.html"
+          ><div>
+            <img src="../svg/header_home.svg" alt="home" /></div
+        ></a>
+        <a href="../inviteusers/index.html"
+          ><div class="header_users">
+            <div><img src="../svg/1.svg" alt="g" /></div>
+            Invite Users 1
+          </div></a
+        >
+        <a href="#"
+          ><div>
+            <img src="../svg/bell.svg" alt="bell" /></div
+        ></a>
+  
+        <a href="../login_page/index.html"
+          ><div><img src="../svg/exit.svg" alt="exit" /></div
+        ></a>
+      </header>
+      <main>
+        
+        <div class="container users">
+          <div class="sidenav">
+            <ul>
+              <li class="one"><a href="../inviteusers/index.html">Dashboard</a></li>
+              <li class="activef two"><a href="../changestation/index.html">Charging Sessions</a></li>
+              <li class="three"><a href="">Billing and Payment</a></li>
+              <li class="four"><a href="../users/index.html">User Management</a></li>
+              <li class=" five">
+                <a href="../add.cpo/index.html">CPO Registration</a>
+              </li>
+              <li class="six"><a href="">Reports and Analytics</a></li>
+            </ul>
+          </div>
+          <div class="CPO_container">
+              <div class="main_cpo">
+                <div class="top_buttons">
+                <button class="top_button_one">Add New Charging Station</button>
+                <button class="top_button_two"> <img src="..//svg/plus.svg" alt="telegram"></button>
+              </div>
+              <div class="main_with_table">
+                <p>Digital Charging Services</p>
+                <form >
+                    <select name="select" >
+                        <option value="1">Charging Group</option>
+                        <option value="2">two</option>
+                        <option value="3">three</option>
+                    </select>
+                    <input type="search" placeholder="Search for Charging station">
+                </form>
+                <table>
+                  <tbody>
+                    <tr class="header_table">
+                        <td>Charging Station Name</td>
+                        <td>Identification No</td>
+                        <td>Charging Group</td>
+                        <td>Charging Points </td>
+                        <td>Firmware</td>
+                        <td >Actions</td>
+                    </tr>
+                    <tr class="lines_table">
+                        <td>CAX IN-00212</td>
+                        <td>CAX 1100011245</td>
+                        <td>Inorbit Mall</td>
+                        <td>2</td>
+                        <td>AXY2354H29</td>
+                        <td> <img src="../svg/write.svg" alt="pravka">
+                        </td>
+                    </tr>
+                    <tr class="middlemargin">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr class="lines_table">
+                        <td> </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr></tbody>
+                </table>
+                <div class="switchpage">
+                  <div class="swich_one"> </div>
+                  <div class="swich_two">1</div>
+                  <div class="swich_three"></div>
+                </div>
+              </div>
+            </div>
+                
+              <div class="cpo_downform">
+                <form class="form_second">
+                  <div><label for="power">Power</label>
+                  <input type="number" id="power">
+                </div>
+                  <div>
+                    <label for="connector">Connector</label>
+                    <input type="number" id="connector">
+                  </div>
+                  <div>
+                    <label for="make">Make</label>
+                    <input type="number" id="make">
+                  </div>
+                  <div class="rating_area">
+                    Rating
+                    <div>
+                      <img src="../svg/star1.svg" alt="star1">
+                      <img src="../svg/star2.svg" alt="star2">
+                      <img src="../svg/star3.svg" alt="star3">
+                      <img src="../svg/star4.svg" alt="star4">
+                      <img src="../svg/star5.svg" alt="star5">
+                    </div>
+                    </div>
+                </form>
+                <form class="form_image">
+                  <div><label for="image">Image URL</label>
+                  <input class="image_input" type="url" id="image"></div>
+                  <div class="images_cpo">
+                    <img src="../images/Group 2.png" alt="bord" width="20%" >
+                    <img src="../images/Group 4.png" alt="bord" width="20%">
+                    <img src="../images/Group 3.png" alt="bord" width="20%">
+                </div> 
+                </form>
+              </div>
+          </div>
+</body>
+</html>

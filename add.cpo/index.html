@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>CPO Registration</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_whiteblock"></div>
+      <a href="../add.cpo/index.html"
+        ><div>
+          <img src="../svg/header_home.svg" alt="home" /></div
+      ></a>
+      <a href="../users/index.html"
+        ><div class="header_users">
+          <div><img src="../svg/1.svg" alt="g" /></div>
+          Users
+        </div></a
+      >
+      <a href="#"
+        ><div>
+          <img src="../svg/bell.svg" alt="bell" /></div
+      ></a>
+
+      <a href="../login_page/index.html"
+        ><div><img src="../svg/exit.svg" alt="exit" /></div
+      ></a>
+    </header>
+    <main>
+      <div class="top_buttons">
+        <button class="top_button_one">Refresh Configuration</button>
+        <button class="top_button_two">
+          <img src="..//svg/refresh.svg" alt="load" />
+        </button>
+      </div>
+      <div class="container">
+        <div class="sidenav">
+          <ul>
+            <li class="one">
+              <a href="../inviteusers/index.html">Dashboard</a>
+            </li>
+            <li class="two">
+              <a href="../changestation/index.html">Charging Sessions</a>
+            </li>
+            <li class="three"><a href="">Billing and Payment</a></li>
+            <li class="four">
+              <a href="../users/index.html">User Management</a>
+            </li>
+            <li class="activef five">
+              <a href="../add.cpo/index.html">CPO Registration</a>
+            </li>
+            <li class="six"><a href="">Reports and Analytics</a></li>
+          </ul>
+        </div>
+        <div class="cpo_forms">
+          <form class="cpo_buttons">
+            <input type="reset" value="Delete" class="delete" />
+            <input type="submit" value="Save" class="save" />
+          </form>
+          <form class="cpo_form_two" autocomplete="on">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Cero Mobility" />
+            <label for="address">Address</label>
+            <input
+              type="text"
+              id="address"
+              placeholder="305, SBR Surya Pearl, Huda Techno Enclave, Hitech City, Hyderabad"
+            />
+            <label for="url">URL*</label>
+            <input type="url" id="url" placeholder="0" />
+            <div class="onestrock">
+              <div>
+                <label for="CountryCode">Country Code</label>
+                <div>
+                  <input type="number" id="CountryCode" placeholder="0" />
+                </div>
+              </div>
+              <div>
+                <label for="PartyID">Party ID</label>
+                <div><input type="number" id="PartyID" placeholder="0" /></div>
+              </div>
+            </div>
+
+            <div>
+              <label for="LocalToken">Local Token</label>
+              <div class="onestrock">
+                <input
+                  class="input_local"
+                  type="number"
+                  id="LocalToken"
+                  placeholder="16"
+                />
+                <input
+                  class="button_local"
+                  type="button"
+                  value="Generate Token"
+                />
+              </div>
+            </div>
+            <label for="RemoteToken">Remote Token</label>
+            <input type="number" id="RemoteToken" placeholder="0" />
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
